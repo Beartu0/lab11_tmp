@@ -8,7 +8,7 @@ public class Main {
         Marks<Integer> marks = new Marks<>();
 
         ArrayList<Integer> aryint = new ArrayList<>();
-        aryint.add(1);
+        aryint.add(23);
         aryint.add(2);
         printArrayListElements(aryint);
         ArrayList<Double> aryDouble = new ArrayList<>();
@@ -17,7 +17,7 @@ public class Main {
         printArrayListElements(aryDouble);
         ArrayList<String> arystring = new ArrayList<>();
         arystring.add("Hello");
-        arystring.add("Ezgi Hocams ");
+        arystring.add("World ");
         printArrayListElements(arystring);
 
         SurveyResponse<String> surveyResponse = new SurveyResponse<>();
